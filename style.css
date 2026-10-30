@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image : url('./images/Cherry\ aesthetics.jpg');
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 40vh;
+    font-family: "Bellota-Bold";
+    font-size: 3rem;
+    color: purple;
+}
+
+@font-face {
+    font-family: "Bellota-Bold";
+    src: url("./fonts/Bellota-Bold\ \(1\).ttf") format("truetype");
+}
+.decor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+min-height: 200px;
+margin: 30px auto;
+padding: 25px;
+background: rgba(251, 136, 255, 0.85);
+border: 2px solid #d98aa8;
+border-radius: 25px;
+box-shadow: 0 8px 25px rgba(100, 30, 60, 0.25);
+box-sizing: border-box;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#task {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d98aa8;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+#addTask {
+    padding: 10px 20px;
+    background-color: #d98aa8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
