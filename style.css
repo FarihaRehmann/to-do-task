@@ -44,13 +44,13 @@ box-sizing: border-box;
 #task {
     width: 100%;
     padding: 10px;
-    border: 1px solid #d98aa8;
+    border: 1px solid #9B72AA;
     border-radius: 5px;
     font-size: 1rem;
 }
 #addTask {
     padding: 10px 20px;
-    background-color: #d98aa8;
+    background-color: #9B72AA;
     color: white;
     border: none;
     border-radius: 5px;
