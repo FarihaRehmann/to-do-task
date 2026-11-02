@@ -1,39 +1,47 @@
-*{
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background-image : url('./images/Cherry\ aesthetics.jpg');
+
+body {
+    background-image: url('./images/background.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url("./fonts/Pacifico-Regular.ttf") format("truetype");
+}
+
 h1 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: auto;
-    margin-top: 40vh;
-    font-family: "Bellota-Bold";
+    margin-top: 9cqw;
+    font-family: "Pacifico-Regular", cursive;
     font-size: 3rem;
     color: purple;
 }
 
-@font-face {
-    font-family: "Bellota-Bold";
-    src: url("./fonts/Bellota-Bold\ \(1\).ttf") format("truetype");
-}
 .decor {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+
     width: 400px;
-min-height: 200px;
-margin: 30px auto;
-padding: 25px;
-background: rgba(251, 136, 255, 0.85);
-border: 2px solid #d98aa8;
-border-radius: 25px;
-box-shadow: 0 8px 25px rgba(100, 30, 60, 0.25);
-box-sizing: border-box;
+    min-height: 200px;
+    margin: 25px auto;
+    padding: 25px;
+
+    background: rgba(251, 136, 255, 0.85);
+    border: 2px solid #d98aa8;
+    border-radius: 25px;
+    box-shadow: 0 8px 25px rgba(100, 30, 60, 0.25);
 }
 
 .input-area {
@@ -41,6 +49,7 @@ box-sizing: border-box;
     align-items: center;
     gap: 10px;
 }
+
 #task {
     width: 100%;
     padding: 10px;
@@ -48,6 +57,7 @@ box-sizing: border-box;
     border-radius: 5px;
     font-size: 1rem;
 }
+
 #addTask {
     padding: 10px 20px;
     background-color: #9B72AA;
@@ -55,4 +65,13 @@ box-sizing: border-box;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 10px;
 }
